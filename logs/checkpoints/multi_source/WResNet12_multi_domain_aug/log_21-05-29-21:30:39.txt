@@ -1,0 +1,7 @@
+[21-05-29 21:30] train_multi_representations.py --dataset multi_source --model WResNet12 --method multi_domain --train_aug --stop_epoch 250 --save_freq 50
+[21-05-29 21:30] Namespace(checkpoint_dir='./logs/checkpoints/multi_source/WResNet12_multi_domain_aug', dataset='multi_source', fine_tune_all_models=False, freeze_backbone=False, method='multi_domain', model='WResNet12', models_to_use=['miniImageNet', 'caltech256', 'DTD', 'cifar100', 'CUB'], n_shot=5, num_classes=200, save_freq=50, start_epoch=0, stop_epoch=250, test_dataset='ISIC', test_n_way=5, train_aug=True, train_n_way=5)
+[21-05-29 21:33] Epoch 0 | iterations 756 | Loss 22.899452
+[21-05-29 21:37] Epoch 1 | iterations 756 | Loss 19.764614
+[21-05-29 21:40] Epoch 2 | iterations 756 | Loss 18.142400
+[21-05-29 21:43] Epoch 3 | iterations 756 | Loss 16.718230
+[21-05-29 21:47] Epoch 4 | iterations 756 | Loss 15.422151
